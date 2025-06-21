@@ -11,6 +11,8 @@ public class firstCode {
         driver.get("https://thebanarasisaree.com/");
         driver.findElement(By.id("search")).sendKeys("Suyash");
         System.out.println("Check Changes");
+        System.out.println("Check Changes");
+        System.out.println("Check Changes");
 
         driver.close();
     }
