@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="8" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-26T17:50:14 IST" name="Banaras Saree" finished-at="2025-06-26T17:50:14 IST" duration-ms="367">
+    <groups>
+    </groups>
+    <test started-at="2025-06-26T17:50:14 IST" name="Login" finished-at="2025-06-26T17:50:14 IST" duration-ms="169">
+      <class name="com.banarasisaree.UI.Login">
+        <test-method signature="printAge()[pri:0, instance:com.banarasisaree.UI.Login@51399530]" started-at="2025-06-26T17:50:14 IST" name="printAge" finished-at="2025-06-26T17:50:14 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printAge -->
+        <test-method signature="printLogin()[pri:0, instance:com.banarasisaree.UI.Login@51399530]" started-at="2025-06-26T17:50:14 IST" name="printLogin" finished-at="2025-06-26T17:50:14 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLogin -->
+        <test-method signature="printName()[pri:0, instance:com.banarasisaree.UI.Login@51399530]" started-at="2025-06-26T17:50:14 IST" name="printName" finished-at="2025-06-26T17:50:14 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printName -->
+        <test-method signature="printSurname()[pri:0, instance:com.banarasisaree.UI.Login@51399530]" started-at="2025-06-26T17:50:14 IST" name="printSurname" finished-at="2025-06-26T17:50:14 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printSurname -->
+      </class> <!-- com.banarasisaree.UI.Login -->
+    </test> <!-- Login -->
+    <test started-at="2025-06-26T17:50:14 IST" name="Login again" finished-at="2025-06-26T17:50:14 IST" duration-ms="39">
+      <class name="com.banarasisaree.UI.Login2">
+        <test-method signature="printLogin()[pri:0, instance:com.banarasisaree.UI.Login2@d35dea7]" started-at="2025-06-26T17:50:14 IST" name="printLogin" finished-at="2025-06-26T17:50:14 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLogin -->
+        <test-method signature="printName()[pri:0, instance:com.banarasisaree.UI.Login2@d35dea7]" started-at="2025-06-26T17:50:14 IST" name="printName" finished-at="2025-06-26T17:50:14 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printName -->
+        <test-method signature="printSurname()[pri:0, instance:com.banarasisaree.UI.Login2@d35dea7]" started-at="2025-06-26T17:50:14 IST" name="printSurname" finished-at="2025-06-26T17:50:14 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printSurname -->
+      </class> <!-- com.banarasisaree.UI.Login2 -->
+    </test> <!-- Login again -->
+  </suite> <!-- Banaras Saree -->
+</testng-results>

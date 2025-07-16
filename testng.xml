@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Banaras Saree">
+<listeners>
+<listener class-name="com.banarasisaree.Listeners.TestListener"/>
+</listeners>
+  <test thread-count="5" name="Login">
+    <classes>
+      <class name="com.banarasisaree.UI.Login"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test thread-count="5" name="Login again">
+    <classes>
+      <class name="com.banarasisaree.UI.Login2">
+      <methods>
+      <exclude name = "printAge"/>
+      </methods>
+      </class>
+    </classes>
+  </test> 
+  
+  
+  
+</suite> <!-- Suite -->
